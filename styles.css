@@ -1,0 +1,149 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #aaa;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-weight: 600;
+}
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Services section */
+#services .services {
+    display: flex;
+    justify-content: center;
+}
+
+.service-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Projects section */
+#projects .project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+/* CV section */
+#cv .cv-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+.project {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
